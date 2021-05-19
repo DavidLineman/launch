@@ -34,4 +34,4 @@ $stdout.puts "The monthly inerest rate will be #{monthly_interest_rate(apr)}"
 $stdout.puts "What is the length of the loan in years? (15 or 30 years)"
 $stdout.flush
 
-term = gets.chomp
+term = gets.chomp.to_f
